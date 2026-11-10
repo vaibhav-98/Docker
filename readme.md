@@ -1,8 +1,8 @@
 1-
- docker build -t api-gateway .
+ ### docker build -t api-gateway .
 
---  For docker volume 
- docker valume create api-gateway-node-modules
+##  For docker volume 
+ ### docker valume create api-gateway-node-modules
 
 --- docker  run -it --init -p 3001:3001 -v"$(pwd)":/developer/nodejs/api-gateway -v api-gateway-node-modules:/developer/nodejs/api-gateway/node_modules api-gateway
 
