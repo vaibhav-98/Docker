@@ -7,8 +7,8 @@
 --- docker  run -it --init -p 3001:3001 -v"$(pwd)":/developer/nodejs/api-gateway -v api-gateway-node-modules:/developer/nodejs/api-gateway/node_modules api-gateway
 
 2-remove container
- # docker rm flight-service 
-#  docker rm -f flight-service
+ ### docker rm flight-service 
+###  docker rm -f flight-service
 
 3- show all the running container 
 ## docker ps
