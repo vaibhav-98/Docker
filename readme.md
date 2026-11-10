@@ -1,5 +1,5 @@
 1-
-## docker build -t api-gateway .
+ docker build -t api-gateway .
 
 ##  For docker volume 
 ##  docker valume create api-gateway-node-modules
