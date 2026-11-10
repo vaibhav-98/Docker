@@ -1,0 +1,14 @@
+FROM node 
+
+WORKDIR /developer/nodejs/node-bind-mound-project
+
+COPY . .
+
+RUN npm ci
+
+ENV PORT 3000
+
+CMD ["npm", "start"]
+
+##  docker run -it --init -p 3002:3001 app-bind-mound-node
+##  docker run -it --init -p 3002:3000 -v "${PWD}:/developer/nodejs/node-bind-mound-project"  app-bind-mound-node
